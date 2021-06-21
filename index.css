@@ -1,3 +1,7 @@
+:root {
+   --loader-blue: rgba(3, 155, 229, 1)
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -12,4 +16,21 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
+}
+
+.loading__author {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #4f4f4f;
+    margin: 0.6rem 0 2rem 0;
+    display: block;
+}
+
+.loading__anim {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 5px solid rgba(189, 189, 189, 0.25);
+    border-left-color: var(--loader-blue);
+    border-top-color: var(--loader-blue);
 }
